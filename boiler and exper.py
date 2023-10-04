@@ -1,5 +1,5 @@
 
-
+print('hello world')
 # def tokenize_fn(example):
 #     return tokenizer(example["sentence1"], example["sentence2"], truncation=True)
 # tokenized_dataset = raw_dataset.map(tokenize_fn, batched=True)
@@ -33,7 +33,7 @@
 
 
 
-
+/Users/taylorbollman/Github_Repositories/testing local and remote
 
 
 
