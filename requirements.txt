@@ -6,7 +6,7 @@ matplotlib
 transformers
 datasets
 huggingface-hub
-evaluate
+# evaluate
 accelerate
 sentencepiece
 icecream
