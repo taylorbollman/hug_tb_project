@@ -1,6 +1,6 @@
 {
   "name": "PyTorch with GPU",
-  "image": "arm64v8/pytorch",
+  "image": "dockerfile",
   "runArgs": [
     "--gpus", "all"
   ],
