@@ -1,0 +1,13 @@
+{
+  "name": "Python with GPU",
+  "image": "mcr.microsoft.com/vscode/devcontainers/python:3.10-rc-buster",
+  "runArgs": [
+    "--gpus", "all"
+  ],
+  "customizations": {
+    "settings": {
+      "python.pythonPath": "~anaconda3/bin/python",
+      "extensions.autoUpdate": true
+    }
+  }
+}
