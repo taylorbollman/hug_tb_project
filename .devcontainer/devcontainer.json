@@ -1,6 +1,6 @@
 {
   "name": "PyTorch with GPU",
-  "image": "pytorch/pytorch:latest",
+  "image": "ghcr.io/jeremynixon/pytorch-arm:latest",
   "runArgs": [
     "--gpus", "all"
   ],
