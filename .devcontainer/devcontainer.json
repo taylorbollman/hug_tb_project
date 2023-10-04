@@ -1,8 +1,8 @@
 {
   "name": "Python with GPU",
-  "image": "mcr.microsoft.com/vscode/devcontainers/python:3.10-rc-buster",
+  "image": "mcr.microsoft.com/vscode/devcontainers/python:latest",
   "runArgs": [
-    "--gpus", "all"
+    "--device=/dev/dri:/dev/dri"
   ],
   "customizations": {
     "settings": {
