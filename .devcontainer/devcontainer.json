@@ -1,8 +1,8 @@
 {
-  "name": "Python with GPU",
-  "image": "mcr.microsoft.com/vscode/devcontainers/python:latest",
+  "name": "PyTorch with GPU",
+  "image": "pytorch/pytorch:latest",
   "runArgs": [
-    "--device=/dev/dri:/dev/dri"
+    "--gpus", "all"
   ],
   "customizations": {
     "settings": {
