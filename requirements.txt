@@ -1,0 +1,12 @@
+torch
+torchvision
+numpy
+pandas
+matplotlib
+transformers
+datasets
+huggingface-hub
+evaluate
+accelerate
+sentencepiece
+icecream

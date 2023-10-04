@@ -6,8 +6,13 @@
   ],
   "customizations": {
     "settings": {
-      "python.pythonPath": "~anaconda3/bin/python",
+      "python.pythonPath": "${command:python}",
       "extensions.autoUpdate": true
+    },
+    "extensions": {
+      "recommendations": [
+        "ms-python.python"
+      ]
     }
   }
 }
