@@ -1,5 +1,5 @@
 # Use the official CUDA image as the base image
-FROM nvidia/cuda:11.4.0-devel-ubuntu20.04 AS base
+FROM nvidia/cuda:12.2.0-devel-ubuntu22.04 AS base
 
 # Install Python and other dependencies
 RUN apt-get update && \
