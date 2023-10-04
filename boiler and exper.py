@@ -1,3 +1,10 @@
+
+
+# def tokenize_fn(example):
+#     return tokenizer(example["sentence1"], example["sentence2"], truncation=True)
+# tokenized_dataset = raw_dataset.map(tokenize_fn, batched=True)
+
+
 # #   Model checkpoint
 # checkpoint_mb = "bert-base-uncased"
 
